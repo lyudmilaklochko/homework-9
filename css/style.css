@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 799px;
+  padding: 94px 130px 95px;
+  background-color: #3399cc;
+  border: 14px solid #2b81ac;
+}
+
+.board {
+  width: 539px;
+  min-height: 331px;
+}
+
+.board .group1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.board .group1 .one {
+  width: 265px;
+  background-color: #3399cc;
+}
+
+.board .group1 .two {
+  width: 131px;
+  background-color: #33cccc;
+}
+
+.board .group1 .three {
+  width: 132px;
+  background-color: #996699;
+}
+
+.board .group2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.board .group2 .four {
+  background-color: #c24747;
+  width: 132px;
+}
+
+.board .group2 .five {
+  background-color: #e2674a;
+  width: 132px;
+}
+
+.board .group2 .six {
+  background-color: #ffcc66;
+  width: 132px;
+}
+
+.board .group2 .seven {
+  background-color: #99cc99;
+  width: 132px;
+}
+
+.board .group3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.board .group3 .eight {
+  width: 132px;
+  background-color: #669999;
+}
+
+.board .group3 .nine {
+  width: 265px;
+  background-color: #cc6699;
+}
+
+.board .group3 .ten {
+  width: 131px;
+  background-color: #339966;
+}
+
+.board .group4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.board .group4 .eleven {
+  width: 528px;
+  background-color: #666699;
+}
+
+.town {
+  text-align: center;
+  min-height: 79px;
+  border: 3px solid #ffffff;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  color: #ffffff;
+}
+
+.town p {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+}
+
+.town .weather {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.town .weather span {
+  margin-right: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,118 @@
+$-color-light-blue: #3399cc;
+$-color-blue: #2b81ac;
+$-color-sky-blue: #33cccc;
+$-color-purple: #996699;
+$-color-red: #c24747;
+$-color-orange: #e2674a;
+$-color-yelow: #ffcc66;
+$-color-green: #99cc99;
+$-color-gray: #669999;
+$-color-pink: #cc6699;
+$-color-dark-green: #339966;
+$-color-lavender: #666699;
+$-color-white: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 799px;
+  padding: 94px 130px 95px;
+  background-color: $-color-light-blue;
+  border: 14px solid $-color-blue;
+}
+.board {
+  width: 539px;
+  min-height: 331px;
+  .group1 {
+    display: flex;
+    flex-direction: row;
+    .one {
+      width: 265px;
+      background-color: $-color-light-blue;
+    }
+    .two {
+      width: 131px;
+      background-color: $-color-sky-blue;
+    }
+    .three {
+      width: 132px;
+      background-color: $-color-purple;
+    }
+  }
+  .group2 {
+    display: flex;
+    flex-direction: row;
+
+    .four {
+      background-color: $-color-red;
+      width: 132px;
+    }
+    .five {
+      background-color: $-color-orange;
+      width: 132px;
+    }
+    .six {
+      background-color: $-color-yelow;
+      width: 132px;
+    }
+    .seven {
+      background-color: $-color-green;
+      width: 132px;
+    }
+  }
+  .group3 {
+    display: flex;
+    flex-direction: row;
+
+    .eight {
+      width: 132px;
+      background-color: $-color-gray;
+    }
+    .nine {
+      width: 265px;
+      background-color: $-color-pink;
+    }
+    .ten {
+      width: 131px;
+      background-color: $-color-dark-green;
+    }
+  }
+  .group4 {
+    display: flex;
+    flex-direction: row;
+    .eleven {
+      width: 528px;
+      background-color: $-color-lavender;
+    }
+  }
+}
+
+.town {
+  text-align: center;
+  min-height: 79px;
+  border: 3px solid $-color-white;
+  padding-top: 16px;
+  padding-bottom: 19px;
+  color: $-color-white;
+  p {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+  }
+  .weather {
+    display: flex;
+    justify-content: center;
+    span {
+      margin-right: 4px;
+      font-weight: 400;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+    }
+  }
+}
